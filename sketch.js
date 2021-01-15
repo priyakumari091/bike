@@ -17,11 +17,11 @@ var distance=0;
 var gameOver, restart;
 
 function preload(){
-  pathImg = loadImage("images/Road.png");
+  pathImg = loadImage("Road.png");
   mainRacerImg1 = loadAnimation("mainPlayer1.png","mainPlayer2.png");
   mainRacerImg2= loadAnimation("mainPlayer3.png");
   
-  oppPink1Img = loadAnimation("images/opponent1.png","opponent2.png");
+  oppPink1Img = loadAnimation("opponent1.png","opponent2.png");
   oppPink2Img = loadAnimation("opponent3.png");
   
   oppYellow1Img = loadAnimation("opponent4.png","opponent5.png");
